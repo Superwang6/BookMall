@@ -14,4 +14,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class test {
+
+    public void test(){
+        System.out.println("test");
+    }
 }
