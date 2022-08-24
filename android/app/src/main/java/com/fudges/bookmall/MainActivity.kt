@@ -51,6 +51,7 @@ class MainActivity : BaseActivity() {
 
     private fun addFragment (fragment: Fragment,tag:String) {
         val fragmentManager = supportFragmentManager
+
         val beginTransaction = fragmentManager.beginTransaction()
         beginTransaction.add(R.id.fragment_container,fragment,tag)
         beginTransaction.commit()
